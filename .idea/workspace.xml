@@ -7,21 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f6d969-44a4-4564-aba2-fd3203983749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/SqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/daodao/controller/GeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/daodao/service/itemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring-mybatis.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="mybatis_cfg.xml" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +80,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1hIYuuAF80ULCiLgpNg3fexA3Tg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -70,16 +90,57 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
-    <configuration name="daodao" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager" selected="Application.GeneratorTest">
+    <configuration name="GeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="daodao.controller.GeneratorTest" />
+      <module name="daodao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="daodao.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testgenerator" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/daodao_war/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -90,7 +151,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_daodao" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_daodao_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -98,7 +159,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="34175" />
+        <option name="DEBUG_PORT" value="39187" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -152,6 +213,16 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GeneratorTest" />
+      <item itemvalue="Maven.testgenerator" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneratorTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -186,7 +257,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599700298895</updated>
-      <workItem from="1599700304356" duration="9016000" />
+      <workItem from="1599700304356" duration="14828000" />
     </task>
     <task id="LOCAL-00001" summary="首次创建">
       <created>1599719917118</created>
@@ -202,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599720047721</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ssm基本框架搭建结束">
+      <created>1599726030108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599726030108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +289,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次创建" />
     <MESSAGE value="上传文件结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传文件结构" />
+    <MESSAGE value="ssm基本框架搭建结束" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm基本框架搭建结束" />
   </component>
   <component name="WindowStateProjectService">
     <state x="352" y="111" key="#Inspections" timestamp="1599702336667">
@@ -230,70 +309,70 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="367" y="109" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/65.24.1375.876@65.24.1375.876" timestamp="1599725036508" />
-    <state x="217" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599725987318">
+    <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599730249129">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="217" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1599725987318" />
-    <state x="247" y="38" key="CommitChangelistDialog2" timestamp="1599720047597">
+    <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1599730249129" />
+    <state x="247" y="38" key="CommitChangelistDialog2" timestamp="1599726029946">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="247" y="38" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1599720047597" />
-    <state x="456" y="191" key="FileChooserDialogImpl" timestamp="1599725916857">
+    <state x="247" y="38" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1599726029946" />
+    <state x="456" y="191" key="FileChooserDialogImpl" timestamp="1599730206578">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="456" y="191" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1599725916857" />
-    <state width="1070" height="234" key="GridCell.Tab.0.bottom" timestamp="1599725673762">
+    <state x="456" y="191" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1599730206578" />
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom" timestamp="1599733519404">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1599725673762" />
-    <state width="1070" height="234" key="GridCell.Tab.0.center" timestamp="1599725673762">
+    <state width="1323" height="213" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1599733519404" />
+    <state width="1323" height="213" key="GridCell.Tab.0.center" timestamp="1599733519399">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1599725673762" />
-    <state width="1070" height="234" key="GridCell.Tab.0.left" timestamp="1599725673760">
+    <state width="1323" height="213" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1599733519399" />
+    <state width="1323" height="213" key="GridCell.Tab.0.left" timestamp="1599733519399">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1599725673760" />
-    <state width="1070" height="234" key="GridCell.Tab.0.right" timestamp="1599725673762">
+    <state width="1323" height="213" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1599733519399" />
+    <state width="1323" height="213" key="GridCell.Tab.0.right" timestamp="1599733519400">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1599725673762" />
-    <state width="1070" height="234" key="GridCell.Tab.1.bottom" timestamp="1599725673763">
+    <state width="1323" height="213" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1599733519400" />
+    <state width="1070" height="234" key="GridCell.Tab.1.bottom" timestamp="1599733324403">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state width="1070" height="234" key="GridCell.Tab.1.center" timestamp="1599725673763">
+    <state width="1070" height="234" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1599733324403" />
+    <state width="1070" height="234" key="GridCell.Tab.1.center" timestamp="1599733324400">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state width="1070" height="234" key="GridCell.Tab.1.left" timestamp="1599725673763">
+    <state width="1070" height="234" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1599733324400" />
+    <state width="1070" height="234" key="GridCell.Tab.1.left" timestamp="1599733324398">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state width="1070" height="234" key="GridCell.Tab.1.right" timestamp="1599725673763">
+    <state width="1070" height="234" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1599733324398" />
+    <state width="1070" height="234" key="GridCell.Tab.1.right" timestamp="1599733324402">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state width="1070" height="234" key="GridCell.Tab.2.bottom" timestamp="1599725673764">
+    <state width="1070" height="234" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1599733324402" />
+    <state width="1070" height="234" key="GridCell.Tab.2.bottom" timestamp="1599733324409">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1599725673764" />
-    <state width="1070" height="234" key="GridCell.Tab.2.center" timestamp="1599725673763">
+    <state width="1070" height="234" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1599733324409" />
+    <state width="1070" height="234" key="GridCell.Tab.2.center" timestamp="1599733324407">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state width="1070" height="234" key="GridCell.Tab.2.left" timestamp="1599725673763">
+    <state width="1070" height="234" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1599733324407" />
+    <state width="1070" height="234" key="GridCell.Tab.2.left" timestamp="1599733324405">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state width="1070" height="234" key="GridCell.Tab.2.right" timestamp="1599725673763">
+    <state width="1070" height="234" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1599733324405" />
+    <state width="1070" height="234" key="GridCell.Tab.2.right" timestamp="1599733324408">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="1070" height="234" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1599725673763" />
-    <state x="134" y="106" width="1252" height="728" key="SettingsEditor" timestamp="1599724459532">
+    <state width="1070" height="234" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1599733324408" />
+    <state x="134" y="106" width="1252" height="728" key="SettingsEditor" timestamp="1599730564983">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="134" y="106" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1599724459532" />
+    <state x="134" y="106" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1599730564983" />
     <state x="352" y="184" key="Vcs.Push.Dialog.v2" timestamp="1599720097404">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
