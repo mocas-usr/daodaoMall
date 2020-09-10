@@ -88,6 +88,11 @@
       <artifactId>spring-jdbc</artifactId>
       <version>4.2.3.release</version>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>4.2.5.RELEASE</version>
+    </dependency>
     <!--jdbc连接池-->
     <dependency>
       <groupId>commons-dbcp</groupId>
