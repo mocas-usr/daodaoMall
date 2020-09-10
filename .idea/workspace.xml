@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6f6d969-44a4-4564-aba2-fd3203983749" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.3.1" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.3.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hIYuuAF80ULCiLgpNg3fexA3Tg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6f6d969-44a4-4564-aba2-fd3203983749" name="Default Changelist" comment="" />
+      <created>1599700298895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599700298895</updated>
+      <workItem from="1599700304356" duration="4358000" />
+    </task>
+    <task id="LOCAL-00001" summary="首次创建">
+      <created>1599719917118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599719917118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首次创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次创建" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="111" key="#Inspections" timestamp="1599702336667">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="352" y="111" key="#Inspections/65.24.1375.876@65.24.1375.876" timestamp="1599702336667" />
+    <state x="247" y="38" key="CommitChangelistDialog2" timestamp="1599719916845">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="247" y="38" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1599719916845" />
+    <state x="456" y="191" key="FileChooserDialogImpl" timestamp="1599703157929">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="456" y="191" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1599703157929" />
+    <state x="134" y="106" width="1252" height="728" key="SettingsEditor" timestamp="1599703135476">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="134" y="106" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1599703135476" />
+    <state x="352" y="184" key="Vcs.Push.Dialog.v2" timestamp="1599719935297">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="352" y="184" key="Vcs.Push.Dialog.v2/65.24.1375.876@65.24.1375.876" timestamp="1599719935297" />
+    <state x="473" y="233" key="git4idea.merge.GitPullDialog" timestamp="1599719886293">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="473" y="233" key="git4idea.merge.GitPullDialog/65.24.1375.876@65.24.1375.876" timestamp="1599719886293" />
+  </component>
+</project>
