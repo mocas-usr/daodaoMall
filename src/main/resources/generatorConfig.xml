@@ -24,7 +24,7 @@
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
         <!--targetProject:mapper映射文件生成的位置-->
-        <sqlMapGenerator targetPackage="mapper" targetProject="./src/main/resource">
+        <sqlMapGenerator targetPackage="mapper" targetProject="./src/main/resources">
             <property name="enableSubPackages" value="false"></property>
 
         </sqlMapGenerator>

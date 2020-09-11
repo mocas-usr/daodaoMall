@@ -29,7 +29,7 @@ public class GeneratorTest {
     public void testGenerator() throws IOException, XMLParserException, InvalidConfigurationException, SQLException, InterruptedException {
         List<String> warnings=new ArrayList<String>();
         boolean overWriter=true;//指向配置文件
-        File configFile=new File(GeneratorTest.class.getResource("generatorConfig").getFile());
+        File configFile=new File(GeneratorTest.class.getResource("/generatorConfig.xml").getFile());
         ConfigurationParser cp=new ConfigurationParser(warnings);
         Configuration config=cp.parseConfiguration(configFile);
         DefaultShellCallback callback=new DefaultShellCallback(overWriter);

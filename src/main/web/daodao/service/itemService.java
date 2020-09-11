@@ -1,5 +1,7 @@
 package daodao.service;
 
+import daodao.entity.TbItem;
+
 /**
  * Created with IntelliJ IDEA
  *
@@ -9,5 +11,5 @@ package daodao.service;
  */
 public interface itemService {
 
-
+    TbItem getItemById(long ItemId);
 }
