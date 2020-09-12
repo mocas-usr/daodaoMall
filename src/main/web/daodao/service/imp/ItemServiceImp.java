@@ -6,9 +6,12 @@ package daodao.service.imp;/**
  * @email: wangyuhang_mocas@163.com
  */
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import daodao.dao.TbItemMapper;
 import daodao.entity.TbItem;
 import daodao.entity.TbItemExample;
+import daodao.entity.pojo.EUDataGridResult;
 import daodao.service.itemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -44,5 +47,31 @@ public class ItemServiceImp  implements itemService {
             return item;
         }
         return null;
+    }
+
+    /**
+    *@Description: 实现商品列表查询
+    *@Param: 
+    *@return: 
+    *@Author: mocas_wang
+    *@date: 
+    */
+    @Override
+    public EUDataGridResult getItemList(int page, int rows) {
+        //查询商品列表
+        TbItemExample example=new TbItemExample();
+        //分页处理
+        PageHelper.startPage(page,rows);
+        //这里的list是根据page，rows选取出数据
+        List<TbItem> list= itemMapper.selectByExample(example);
+        //创建一个返回值对象
+        EUDataGridResult result=new EUDataGridResult();
+
+        result.setRows(list);
+        //取记录总条数,是全部条数
+        PageInfo<TbItem> pageInfo=new PageInfo<>(list);
+        result.setTotal(pageInfo.getTotal());
+
+        return result;
     }
 }

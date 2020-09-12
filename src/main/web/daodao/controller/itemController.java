@@ -1,4 +1,5 @@
-package daodao.controller;/**
+package daodao.controller;
+/**
  * Created with IntelliJ IDEA
  *
  * @Author: mocas
@@ -7,6 +8,7 @@ package daodao.controller;/**
  */
 
 import daodao.entity.TbItem;
+import daodao.entity.pojo.EUDataGridResult;
 import daodao.service.imp.ItemServiceImp;
 import daodao.service.itemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,4 +53,19 @@ public class itemController {
         return "test";
     }
 
+
+    /**
+    *@Description: 查询分页数据
+    *@Param: 
+    *@return: 
+    *@Author: mocas_wang
+    *@date: 
+    */
+    @RequestMapping("/getItemList")
+    @ResponseBody
+    public EUDataGridResult getItemList(int page,int rows)
+    {
+        EUDataGridResult result=itemService.getItemList(page,rows);
+        return result;
+    }
 }

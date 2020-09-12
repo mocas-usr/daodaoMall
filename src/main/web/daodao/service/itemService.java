@@ -1,6 +1,7 @@
 package daodao.service;
 
 import daodao.entity.TbItem;
+import daodao.entity.pojo.EUDataGridResult;
 
 /**
  * Created with IntelliJ IDEA
@@ -12,4 +13,6 @@ import daodao.entity.TbItem;
 public interface itemService {
 
     TbItem getItemById(long ItemId);
+
+    EUDataGridResult getItemList(int  page,int rows);
 }
