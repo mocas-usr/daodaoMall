@@ -1,4 +1,4 @@
-package daodao.controller;
+package daodao.Controller;
 /**
  * Created with IntelliJ IDEA
  *
@@ -9,17 +9,12 @@ package daodao.controller;
 
 import daodao.entity.TbItem;
 import daodao.entity.pojo.EUDataGridResult;
-import daodao.service.imp.ItemServiceImp;
 import daodao.service.itemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import javax.annotation.Resource;
-import java.util.Map;
 
 /**
  *@program: daodao

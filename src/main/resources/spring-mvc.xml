@@ -25,7 +25,7 @@
     </mvc:annotation-driven>
     <mvc:default-servlet-handler/>
     <!-- 使用annotation 自动注册bean,并保证@Required,@Autowired的属性被注入 -->
-    <context:component-scan base-package="daodao.controller">
+    <context:component-scan base-package="daodao.Controller">
 
     </context:component-scan>
     <aop:aspectj-autoproxy proxy-target-class="true">
