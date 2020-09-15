@@ -9,11 +9,13 @@ package daodao.Controller;
 
 import daodao.entity.TbItem;
 import daodao.entity.pojo.EUDataGridResult;
+import daodao.entity.pojo.TaotaoResult;
 import daodao.service.itemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -62,5 +64,21 @@ public class itemController {
     {
         EUDataGridResult result=itemService.getItemList(page,rows);
         return result;
+    }
+
+
+    /**
+    *@Description: 增加商品
+    *@Param: 
+    *@return: 
+    *@Author: mocas_wang
+    *@date: 
+    */
+    @RequestMapping(value = "/save",method = RequestMethod.POST)
+    @ResponseBody
+    public TaotaoResult createItem(TbItem tbItem,String desc,String itemParams) throws Exception {
+
+        TaotaoResult taotaoResult=itemService.createItem(tbItem,desc,itemParams);
+        return taotaoResult;
     }
 }

@@ -2,6 +2,7 @@ package daodao.service;
 
 import daodao.entity.TbItem;
 import daodao.entity.pojo.EUDataGridResult;
+import daodao.entity.pojo.TaotaoResult;
 
 /**
  * Created with IntelliJ IDEA
@@ -15,4 +16,6 @@ public interface itemService {
     TbItem getItemById(long ItemId);
 
     EUDataGridResult getItemList(int  page,int rows);
+
+    TaotaoResult createItem(TbItem tbItem,String desc,String itemParam) throws Exception;
 }
