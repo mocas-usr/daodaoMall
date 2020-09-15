@@ -1,4 +1,4 @@
-package daodao.Controller;/**
+package daodao.util;/**
  * Created with IntelliJ IDEA
  *
  * @Author: mocas
