@@ -42,26 +42,27 @@ public class itemCatServiceImp implements itemCatService {
 
         catResult catResult=new catResult();
         catResult.setData(getCatList(0));
-        return null;
+        return catResult;
     }
 
-    /**
-    *@Description: 获取类别的具体信息
-    *@Param:
-    *@return:
-    *@Author: mocas_wang
-    *@date:
-    */
+
+    /** 
+     * @Description:
+     * @Author: mocas_wang
+     * @Date: 上午10:13 2020/9/22
+     * @Param: [parentId]
+     * @return: java.util.List<?>
+    **/
     private List<?> getCatList(long parentId)
     {
         //创建查询条件
-        TbItemCatExample example=new TbItemCatExample();
-        TbItemCatExample.Criteria criteria=example.createCriteria();
+        TbItemCatExample example = new TbItemCatExample();
+        TbItemCatExample.Criteria criteria = example.createCriteria();
         criteria.andParentIdEqualTo(parentId);
         //执行查询
-        List<TbItemCat> list=itemCatMapper.selectByExample(example);
-        //返回值list,
-        List resultList=new ArrayList<>();
+        List<TbItemCat> list = itemCatMapper.selectByExample(example);
+        //返回值list
+        List resultList = new ArrayList<>();
         //向list中添加节点
         int count = 0;
         for (TbItemCat tbItemCat : list) {

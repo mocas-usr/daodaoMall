@@ -28,7 +28,8 @@ public class itemCatController {
     @Autowired
     private itemCatService itemCatService;
 
-    @RequestMapping(value = "/getItemCatList")
+    @RequestMapping(value = "/getItemCatList",
+            produces=MediaType.APPLICATION_JSON_VALUE+";charset=utf-8")
     @ResponseBody
     public String getItemCatList(String callback)
     {
