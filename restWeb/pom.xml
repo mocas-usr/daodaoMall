@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>
-            daodao
+            daodao-all
         </artifactId>
         <groupId>
             org.sdu
@@ -100,9 +100,9 @@
                     <artifactId>
                         maven-surefire-plugin
                     </artifactId>
-                    <version>
+                   <!-- <version>
                         2.22.1
-                    </version>
+                    </version>-->
                 </plugin>
                 <plugin>
                     <artifactId>
