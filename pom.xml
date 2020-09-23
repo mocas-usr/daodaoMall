@@ -283,6 +283,17 @@
             </dependency>
           </dependencies>
         </plugin>
+        <plugin>
+          <groupId>org.eclipse.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <version>9.2.10.v20150310</version>
+          <configuration>
+            <scanIntervalSeconds>1</scanIntervalSeconds>
+            <stopPort>8888</stopPort>
+            <stopKey>1</stopKey>
+            <reload>manual</reload>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>

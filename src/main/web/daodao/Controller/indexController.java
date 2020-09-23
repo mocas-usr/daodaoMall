@@ -6,6 +6,8 @@ package daodao.Controller;/**
  * @email: wangyuhang_mocas@163.com
  */
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +18,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *@author: mocas_wang
  *@create: 2020-09-12 09:22
  */
+@Configuration
+@ComponentScan(basePackages = {"daodao.Controller", "daodao.Controller", "daodao.service"})
 @Controller
+@RequestMapping("/index")
 public class indexController {
 
     /*打开首页*/
