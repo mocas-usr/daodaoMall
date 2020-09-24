@@ -6,8 +6,11 @@ package portal.controller;/**
  * @email: wangyuhang_mocas@163.com
  */
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import portal.service.contentService;
 
 /**
  *@program: daodao
@@ -17,10 +20,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class indexController {
+    @Autowired
+    private contentService contentService;
 
     @RequestMapping("/index")
-    public String index()
+    public String index(Model model)
     {
+        String adJson=contentService.getContentList();
+        model.addAttribute("ad1",adJson);
 
         return "index";
     }

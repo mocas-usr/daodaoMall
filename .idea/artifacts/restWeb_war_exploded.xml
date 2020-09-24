@@ -1,12 +1,20 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="restWeb:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/restWeb_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/restWeb/target/restWeb</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>restWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="restWeb" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javaee:javaee-api:5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" />
@@ -50,6 +58,9 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.8" />
         </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/restWeb/target/restWeb/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="restWeb/web/Web" />
     </root>

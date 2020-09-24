@@ -7,6 +7,7 @@ package daodao.service;/**
  */
 
 import daodao.entity.pojo.EUtreeNode;
+import daodao.entity.pojo.TaotaoResult;
 
 import java.util.List;
 
@@ -19,5 +20,6 @@ import java.util.List;
 public interface contentCategoryService {
 
     List<EUtreeNode> getCategoryList(long parentId);
+    TaotaoResult insertContentCategory(long parentId,String name);
 
 }

@@ -7,6 +7,7 @@ package daodao.Controller;/**
  */
 
 import daodao.entity.pojo.EUtreeNode;
+import daodao.entity.pojo.TaotaoResult;
 import daodao.service.contentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -28,6 +29,14 @@ public class contentCategoryController {
     @Autowired
     private contentCategoryService contentCategoryService;
 
+    /**
+     * @Description:列表显示内容分类
+     * @Author: mocas_wang
+     * @Date: 上午10:14 2020/9/24
+     * @Param: [parentId]
+     * @return: java.util.List<daodao.entity.pojo.EUtreeNode>
+    **/
+
     @RequestMapping("/list")
     @ResponseBody
     public List<EUtreeNode> getContentCatList(@RequestParam(value = "id",defaultValue = "0") long parentId)
@@ -35,5 +44,20 @@ public class contentCategoryController {
         List<EUtreeNode> list=contentCategoryService.getCategoryList(parentId);
         return list;
 
+    }
+
+    /**
+     * @Description:增加内容节点
+     * @Author: mocas_wang
+     * @Date: 上午10:15 2020/9/24
+     * @Param: [parentId, name]
+     * @return: daodao.entity.pojo.TaotaoResult
+    **/
+
+    @RequestMapping("/create")
+    @ResponseBody
+    public TaotaoResult createContentCategory(Long parentId, String name) {
+        TaotaoResult result = contentCategoryService.insertContentCategory(parentId, name);
+        return result;
     }
 }
