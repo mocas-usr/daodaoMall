@@ -28,8 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f6d969-44a4-4564-aba2-fd3203983749" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/JedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientCluster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/jedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/test/java/redis/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/test/resources/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/restWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/restWeb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/java/portal/controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/portalWeb/src/main/java/portal/controller/indexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restWeb/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +64,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="mybatis_cfg.xml" />
         <option value="Jsp File" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -92,6 +100,11 @@
         <option name="mavenHome" value="/usr/local/apache-maven-3.3.1" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1hIYuuAF80ULCiLgpNg3fexA3Tg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -109,7 +122,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portalWeb/src/main/java/portal/httpcilent" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/restWeb/src/main/resources" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30197555" />
@@ -132,20 +145,20 @@
       <recent name="rest.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/portalWeb/src/main/java/portal/httpcilent" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/restWeb/src/main/webapp/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/restWeb/src/main/resources" />
+      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp" />
       <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/dao" />
-      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/entity" />
+      <recent name="$PROJECT_DIR$/restWeb/src/test/resources" />
+      <recent name="$PROJECT_DIR$/portalWeb/src/main/java/portal/httpcilent" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.restWeb">
-    <configuration name="GeneratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="daodao.controller.GeneratorTest" />
-      <module name="daodao" />
+  <component name="RunManager" selected="JUnit.JedisTest.testSpringJedisSingle">
+    <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <module name="restWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="daodao.controller.*" />
+          <option name="PATTERN" value="redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,46 +166,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pagehelperTest.testPageHelpher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="daodao" />
+    <configuration name="JedisTest.testJedisPool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.taotao.*" />
+          <option name="PATTERN" value="redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.taotao" />
-      <option name="MAIN_CLASS_NAME" value="com.taotao.pagehelperTest" />
-      <option name="METHOD_NAME" value="testPageHelpher" />
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="testJedisPool" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="daodao [clean:clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean:clean" />
-              </list>
-            </option>
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
+    <configuration name="JedisTest.testJedisSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="testJedisSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.testSpringJedisCluster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="testSpringJedisCluster" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisTest.testSpringJedisSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="restWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="redis" />
+      <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
+      <option name="METHOD_NAME" value="testSpringJedisSingle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="daodao" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -415,19 +451,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GeneratorTest" />
-      <item itemvalue="JUnit.pagehelperTest.testPageHelpher" />
-      <item itemvalue="Maven.daodao [clean:clean]" />
       <item itemvalue="Tomcat Server.daodao" />
       <item itemvalue="Tomcat Server.restWeb" />
       <item itemvalue="Tomcat Server.portalWeb" />
+      <item itemvalue="JUnit.JedisTest.testSpringJedisSingle" />
+      <item itemvalue="JUnit.JedisTest.testJedisPool" />
+      <item itemvalue="Application.JedisTest" />
+      <item itemvalue="JUnit.JedisTest.testSpringJedisCluster" />
+      <item itemvalue="JUnit.JedisTest.testJedisSingle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.daodao [clean:clean]" />
-        <item itemvalue="JUnit.pagehelperTest.testPageHelpher" />
-        <item itemvalue="Application.GeneratorTest" />
-        <item itemvalue="Application.GeneratorTest" />
+        <item itemvalue="JUnit.JedisTest.testSpringJedisSingle" />
+        <item itemvalue="JUnit.JedisTest.testJedisPool" />
+        <item itemvalue="JUnit.JedisTest.testJedisSingle" />
+        <item itemvalue="JUnit.JedisTest.testSpringJedisCluster" />
+        <item itemvalue="Application.JedisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +535,7 @@
       <workItem from="1600847844022" duration="216000" />
       <workItem from="1600848089464" duration="5822000" />
       <workItem from="1600861823659" duration="137000" />
-      <workItem from="1600909742368" duration="21118000" />
+      <workItem from="1600909742368" duration="32584000" />
     </task>
     <task id="LOCAL-00001" summary="首次创建">
       <created>1599719917118</created>
@@ -589,7 +628,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600942635733</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修复商场主页">
+      <created>1600994151571</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600994151571</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +670,8 @@
     <MESSAGE value="整理module结构" />
     <MESSAGE value="基本正常结构运行" />
     <MESSAGE value="大广告图片显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="大广告图片显示" />
+    <MESSAGE value="修复商场主页" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复商场主页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="708" y="313" key="#BuildArtifactsBeforeRunChooser" timestamp="1600846106876">
@@ -674,10 +721,10 @@
     </state>
     <state x="169" y="41" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600846107779" />
     <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1600859072192" />
-    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1600935765517">
+    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1601024339571">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1600935765517" />
+    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1601024339571" />
     <state x="497" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599902382229">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -714,10 +761,10 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="352" y="28" key="#restWeb/65.24.1375.876@65.24.1375.876" timestamp="1600859178725" />
-    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2" timestamp="1600942635117">
+    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2" timestamp="1600994151323">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1600942635117" />
+    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1600994151323" />
     <state x="429" y="160" key="DetectedRootsChooserDialog" timestamp="1599907211072">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -731,86 +778,86 @@
     </state>
     <state x="546" y="198" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600842854216" />
     <state x="456" y="191" width="682" height="515" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1600910880162" />
-    <state width="905" height="235" key="GridCell.Tab.0.bottom" timestamp="1600994045993">
+    <state width="1323" height="312" key="GridCell.Tab.0.bottom" timestamp="1601025734497">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="905" height="235" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1600994045993" />
-    <state width="905" height="235" key="GridCell.Tab.0.center" timestamp="1600994045990">
+    <state width="1323" height="312" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601025734497" />
+    <state width="1323" height="312" key="GridCell.Tab.0.center" timestamp="1601025734496">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="905" height="235" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1600994045990" />
-    <state width="905" height="235" key="GridCell.Tab.0.left" timestamp="1600994045987">
+    <state width="1323" height="312" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1601025734496" />
+    <state width="1323" height="312" key="GridCell.Tab.0.left" timestamp="1601025734496">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="905" height="235" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1600994045987" />
-    <state width="905" height="235" key="GridCell.Tab.0.right" timestamp="1600994045991">
+    <state width="1323" height="312" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1601025734496" />
+    <state width="1323" height="312" key="GridCell.Tab.0.right" timestamp="1601025734496">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="905" height="235" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1600994045991" />
-    <state width="905" height="235" key="GridCell.Tab.1.bottom" timestamp="1600994046002">
+    <state width="1323" height="312" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1601025734496" />
+    <state width="1323" height="268" key="GridCell.Tab.1.bottom" timestamp="1601022184080">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="905" height="235" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1600994046002" />
-    <state width="905" height="235" key="GridCell.Tab.1.center" timestamp="1600994045998">
+    <state width="1323" height="268" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601022184080" />
+    <state width="1323" height="268" key="GridCell.Tab.1.center" timestamp="1601022184079">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="905" height="235" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1600994045998" />
-    <state width="905" height="235" key="GridCell.Tab.1.left" timestamp="1600994045996">
+    <state width="1323" height="268" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1601022184079" />
+    <state width="1323" height="268" key="GridCell.Tab.1.left" timestamp="1601022184079">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="905" height="235" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1600994045996" />
-    <state width="905" height="235" key="GridCell.Tab.1.right" timestamp="1600994046000">
+    <state width="1323" height="268" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1601022184079" />
+    <state width="1323" height="268" key="GridCell.Tab.1.right" timestamp="1601022184080">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="905" height="235" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1600994046000" />
-    <state width="905" height="235" key="GridCell.Tab.2.bottom" timestamp="1600994046006">
+    <state width="1323" height="268" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1601022184080" />
+    <state width="905" height="235" key="GridCell.Tab.2.bottom" timestamp="1601017631913">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1600994046006" />
-    <state width="905" height="235" key="GridCell.Tab.2.center" timestamp="1600994046004">
+    <state width="905" height="235" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601017631913" />
+    <state width="905" height="235" key="GridCell.Tab.2.center" timestamp="1601017631912">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1600994046004" />
-    <state width="905" height="235" key="GridCell.Tab.2.left" timestamp="1600994046003">
+    <state width="905" height="235" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
+    <state width="905" height="235" key="GridCell.Tab.2.left" timestamp="1601017631912">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189803" />
-    <state width="905" height="235" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1600994046003" />
-    <state width="905" height="235" key="GridCell.Tab.2.right" timestamp="1600994046005">
+    <state width="905" height="235" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
+    <state width="905" height="235" key="GridCell.Tab.2.right" timestamp="1601017631913">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1600994046005" />
-    <state width="905" height="235" key="GridCell.Tab.3.bottom" timestamp="1600994046014">
+    <state width="905" height="235" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1601017631913" />
+    <state width="905" height="235" key="GridCell.Tab.3.bottom" timestamp="1601017631912">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.bottom/65.24.1375.876@65.24.1375.876" timestamp="1600994046014" />
-    <state width="905" height="235" key="GridCell.Tab.3.center" timestamp="1600994046009">
+    <state width="905" height="235" key="GridCell.Tab.3.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
+    <state width="905" height="235" key="GridCell.Tab.3.center" timestamp="1601017631912">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.center/65.24.1375.876@65.24.1375.876" timestamp="1600994046009" />
-    <state width="905" height="235" key="GridCell.Tab.3.left" timestamp="1600994046009">
+    <state width="905" height="235" key="GridCell.Tab.3.center/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
+    <state width="905" height="235" key="GridCell.Tab.3.left" timestamp="1601017631911">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.left/65.24.1375.876@65.24.1375.876" timestamp="1600994046009" />
-    <state width="905" height="235" key="GridCell.Tab.3.right" timestamp="1600994046012">
+    <state width="905" height="235" key="GridCell.Tab.3.left/65.24.1375.876@65.24.1375.876" timestamp="1601017631911" />
+    <state width="905" height="235" key="GridCell.Tab.3.right" timestamp="1601017631912">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.right/65.24.1375.876@65.24.1375.876" timestamp="1600994046012" />
+    <state width="905" height="235" key="GridCell.Tab.3.right/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
     <state width="1070" height="234" key="GridCell.Tab.4.bottom" timestamp="1599792745255">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -888,10 +935,11 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="392" y="191" width="719" height="678" key="search.everywhere.popup/65.24.1375.876@65.24.1375.876" timestamp="1600931094262" />
-    <state x="604" y="225" key="spring file set editor" timestamp="1600837988693">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="498" y="214" key="spring file set editor" timestamp="1601020602189">
+      <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="604" y="225" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1600837988693" />
+    <state x="498" y="214" key="spring file set editor/65.24.1375.876@65.24.1375.876" timestamp="1601020602189" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1110,6 +1158,16 @@
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp/contentServiceImp.java</url>
           <line>62</line>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/test/java/redis/JedisTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/test/java/redis/JedisTest.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/controller/itemCatController.java</url>
