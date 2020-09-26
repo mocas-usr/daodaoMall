@@ -34,7 +34,7 @@
         <constructor-arg name="port" value="6379"></constructor-arg>
         <constructor-arg name="poolConfig" ref="jedisPoolConfig"></constructor-arg>
     </bean>
-<!--    <bean id="jedisClientPool" class="redis.JedisTest"/>-->
+    <bean id="jedisClient" class="rest.dao.imp.JedisClientSingle"/>
 <!--     redis集群-->
 <!--    <bean id="redisClient" class="redis.clients.jedis.JedisCluster">-->
 <!--        <constructor-arg name="nodes">-->

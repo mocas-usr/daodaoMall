@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="portalWeb:war exploded" />
+      <artifact name="restWeb:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -28,16 +28,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f6d969-44a4-4564-aba2-fd3203983749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/JedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/jedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restWeb/src/main/resources/applicationContext-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restWeb/src/test/java/redis/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restWeb/src/test/resources/applicationContext-redis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/restWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/restWeb_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/src/main/java/daodao/service/util/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/conf.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/contentCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/contentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/indexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/itemCatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/itemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/itemParamController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/itemParamItemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/Controller/util/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbContentCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbContentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbItemCatMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbItemDescMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbItemParamItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbItemParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbOrderItemMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbOrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbOrderShippingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/dao/TbUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentCategoryExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentCategoryExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentCategoryExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentCategoryExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbContentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemCat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemCatExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemCatExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemCatExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemCatExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemDesc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemDescExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemDescExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemDescExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemDescExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbItemParamItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderItemExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderItemExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderItemExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderItemExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderShipping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderShippingExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderShippingExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderShippingExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbOrderShippingExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbUserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbUserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbUserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/TbUserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/pojo/EUDataGridResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/pojo/EUtreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/entity/pojo/TaotaoResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/contentCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/contentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/imp/ItemServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/imp/contentCategoryServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/imp/contentServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/imp/itemCatserviceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/imp/itemParamItemServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/imp/itemParamServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/itemCatservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/itemParamItemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/itemParamService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/itemService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/util/FileUploadUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/util/IDUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/service/util/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/daodao/util/GeneratorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbItemCatMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbItemDescMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbItemParamItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbItemParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/target/classes/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portalWeb/src/main/webapp/WEB-INF/jsp/ÉÌÆ··ÖÀàÊý¾Ý¸ñÊ½.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/controller/redisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/redisServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/service/redisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/daodao__1__war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/daodao__1__war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/portalWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/portalWeb_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daodao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daodao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daodao/src/main/java/daodao/service/imp/contentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/daodao/src/main/java/daodao/service/imp/contentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daodao/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/daodao/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restWeb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/jedisClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restWeb/src/main/resources/applicationContext-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restWeb/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restWeb/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/restWeb/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restWeb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/restWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +194,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="adfe0078397e5fb72de58304b9a39188fd5d0832" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,37 +241,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/restWeb/src/main/resources" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/restWeb/src/main/resources/mapper" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30197555" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/restWeb/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/restWeb/src/main/resources" />
+      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp" />
+      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/dao" />
+      <recent name="$PROJECT_DIR$/restWeb/src/test/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="daodao.service.util" />
+      <recent name="portal.utils" />
+      <recent name="portal.dao" />
+      <recent name="rest.pojo" />
+      <recent name="daodao.service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/daodao_rest/src/main" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="portal.utils" />
-      <recent name="portal.dao" />
-      <recent name="rest.pojo" />
-      <recent name="daodao.service" />
-      <recent name="rest.utils" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/restWeb/src/main/resources" />
-      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp" />
-      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/dao" />
-      <recent name="$PROJECT_DIR$/restWeb/src/test/resources" />
-      <recent name="$PROJECT_DIR$/portalWeb/src/main/java/portal/httpcilent" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.JedisTest.testSpringJedisSingle">
+  <component name="RunManager" selected="Tomcat Server.restWeb">
     <configuration name="JedisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="redis.JedisTest" />
       <module name="restWeb" />
@@ -376,7 +495,6 @@
       </method>
     </configuration>
     <configuration name="restWeb" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="restWeb:war exploded">
@@ -451,21 +569,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JedisTest" />
+      <item itemvalue="JUnit.JedisTest.testSpringJedisSingle" />
+      <item itemvalue="JUnit.JedisTest.testJedisPool" />
+      <item itemvalue="JUnit.JedisTest.testSpringJedisCluster" />
+      <item itemvalue="JUnit.JedisTest.testJedisSingle" />
       <item itemvalue="Tomcat Server.daodao" />
       <item itemvalue="Tomcat Server.restWeb" />
       <item itemvalue="Tomcat Server.portalWeb" />
-      <item itemvalue="JUnit.JedisTest.testSpringJedisSingle" />
-      <item itemvalue="JUnit.JedisTest.testJedisPool" />
-      <item itemvalue="Application.JedisTest" />
-      <item itemvalue="JUnit.JedisTest.testSpringJedisCluster" />
-      <item itemvalue="JUnit.JedisTest.testJedisSingle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JedisTest.testSpringJedisSingle" />
-        <item itemvalue="JUnit.JedisTest.testJedisPool" />
         <item itemvalue="JUnit.JedisTest.testJedisSingle" />
         <item itemvalue="JUnit.JedisTest.testSpringJedisCluster" />
+        <item itemvalue="JUnit.JedisTest.testJedisPool" />
+        <item itemvalue="JUnit.JedisTest.testSpringJedisSingle" />
         <item itemvalue="Application.JedisTest" />
       </list>
     </recent_temporary>
@@ -716,15 +834,15 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="549" y="397" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog/65.24.1375.876@65.24.1375.876" timestamp="1599902383896" />
-    <state x="186" y="59" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600859072192">
+    <state x="186" y="59" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601111166049">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="169" y="41" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600846107779" />
-    <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1600859072192" />
-    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1601024339571">
+    <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1601111166049" />
+    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1601108849370">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1601024339571" />
+    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1601108849370" />
     <state x="497" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599902382229">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -778,86 +896,86 @@
     </state>
     <state x="546" y="198" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600842854216" />
     <state x="456" y="191" width="682" height="515" key="FileChooserDialogImpl/65.24.1375.876@65.24.1375.876" timestamp="1600910880162" />
-    <state width="1323" height="312" key="GridCell.Tab.0.bottom" timestamp="1601025734497">
+    <state width="905" height="499" key="GridCell.Tab.0.bottom" timestamp="1601111094551">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1323" height="312" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601025734497" />
-    <state width="1323" height="312" key="GridCell.Tab.0.center" timestamp="1601025734496">
+    <state width="905" height="499" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601111094551" />
+    <state width="905" height="499" key="GridCell.Tab.0.center" timestamp="1601111094551">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1323" height="312" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1601025734496" />
-    <state width="1323" height="312" key="GridCell.Tab.0.left" timestamp="1601025734496">
+    <state width="905" height="499" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1601111094551" />
+    <state width="905" height="499" key="GridCell.Tab.0.left" timestamp="1601111094551">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1323" height="312" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1601025734496" />
-    <state width="1323" height="312" key="GridCell.Tab.0.right" timestamp="1601025734496">
+    <state width="905" height="499" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1601111094551" />
+    <state width="905" height="499" key="GridCell.Tab.0.right" timestamp="1601111094551">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1323" height="312" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1601025734496" />
-    <state width="1323" height="268" key="GridCell.Tab.1.bottom" timestamp="1601022184080">
+    <state width="905" height="499" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1601111094551" />
+    <state width="905" height="499" key="GridCell.Tab.1.bottom" timestamp="1601111116165">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1323" height="268" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601022184080" />
-    <state width="1323" height="268" key="GridCell.Tab.1.center" timestamp="1601022184079">
+    <state width="905" height="499" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601111116165" />
+    <state width="905" height="499" key="GridCell.Tab.1.center" timestamp="1601111116165">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1323" height="268" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1601022184079" />
-    <state width="1323" height="268" key="GridCell.Tab.1.left" timestamp="1601022184079">
+    <state width="905" height="499" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1601111116165" />
+    <state width="905" height="499" key="GridCell.Tab.1.left" timestamp="1601111116165">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1323" height="268" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1601022184079" />
-    <state width="1323" height="268" key="GridCell.Tab.1.right" timestamp="1601022184080">
+    <state width="905" height="499" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1601111116165" />
+    <state width="905" height="499" key="GridCell.Tab.1.right" timestamp="1601111116165">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1323" height="268" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1601022184080" />
-    <state width="905" height="235" key="GridCell.Tab.2.bottom" timestamp="1601017631913">
+    <state width="905" height="499" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1601111116165" />
+    <state width="905" height="499" key="GridCell.Tab.2.bottom" timestamp="1601111094365">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601017631913" />
-    <state width="905" height="235" key="GridCell.Tab.2.center" timestamp="1601017631912">
+    <state width="905" height="499" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601111094365" />
+    <state width="905" height="499" key="GridCell.Tab.2.center" timestamp="1601111094365">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
-    <state width="905" height="235" key="GridCell.Tab.2.left" timestamp="1601017631912">
+    <state width="905" height="499" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1601111094365" />
+    <state width="905" height="499" key="GridCell.Tab.2.left" timestamp="1601111094365">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189803" />
-    <state width="905" height="235" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
-    <state width="905" height="235" key="GridCell.Tab.2.right" timestamp="1601017631913">
+    <state width="905" height="499" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1601111094365" />
+    <state width="905" height="499" key="GridCell.Tab.2.right" timestamp="1601111094365">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1601017631913" />
-    <state width="905" height="235" key="GridCell.Tab.3.bottom" timestamp="1601017631912">
+    <state width="905" height="499" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1601111094365" />
+    <state width="905" height="499" key="GridCell.Tab.3.bottom" timestamp="1601111094366">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
-    <state width="905" height="235" key="GridCell.Tab.3.center" timestamp="1601017631912">
+    <state width="905" height="499" key="GridCell.Tab.3.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601111094366" />
+    <state width="905" height="499" key="GridCell.Tab.3.center" timestamp="1601111094366">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.center/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
-    <state width="905" height="235" key="GridCell.Tab.3.left" timestamp="1601017631911">
+    <state width="905" height="499" key="GridCell.Tab.3.center/65.24.1375.876@65.24.1375.876" timestamp="1601111094366" />
+    <state width="905" height="499" key="GridCell.Tab.3.left" timestamp="1601111094366">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.left/65.24.1375.876@65.24.1375.876" timestamp="1601017631911" />
-    <state width="905" height="235" key="GridCell.Tab.3.right" timestamp="1601017631912">
+    <state width="905" height="499" key="GridCell.Tab.3.left/65.24.1375.876@65.24.1375.876" timestamp="1601111094366" />
+    <state width="905" height="499" key="GridCell.Tab.3.right" timestamp="1601111094366">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="905" height="235" key="GridCell.Tab.3.right/65.24.1375.876@65.24.1375.876" timestamp="1601017631912" />
+    <state width="905" height="499" key="GridCell.Tab.3.right/65.24.1375.876@65.24.1375.876" timestamp="1601111094366" />
     <state width="1070" height="234" key="GridCell.Tab.4.bottom" timestamp="1599792745255">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -886,23 +1004,27 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="173" y="106" key="Registry/65.24.1375.876@65.24.1375.876" timestamp="1600745801340" />
-    <state x="134" y="106" width="1252" height="728" key="SettingsEditor" timestamp="1600941359895">
+    <state x="134" y="106" width="1252" height="728" key="SettingsEditor" timestamp="1601089144557">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="423" y="117" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600845952346" />
-    <state x="134" y="106" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1600941359895" />
+    <state x="134" y="106" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1601089144557" />
     <state width="264" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1600066177753">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="264" height="198" key="ShowFilterAction_Filter_Popup/65.24.1375.876@65.24.1375.876" timestamp="1600066177753" />
-    <state x="352" y="184" key="Vcs.Push.Dialog.v2" timestamp="1599739405353">
+    <state x="352" y="184" key="Vcs.Push.Dialog.v2" timestamp="1601083582545">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="352" y="184" key="Vcs.Push.Dialog.v2/65.24.1375.876@65.24.1375.876" timestamp="1599739405353" />
+    <state x="352" y="184" key="Vcs.Push.Dialog.v2/65.24.1375.876@65.24.1375.876" timestamp="1601083582545" />
     <state x="450" y="186" key="VcsDiffUtil.ChangesDialog" timestamp="1600758978035">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="450" y="186" key="VcsDiffUtil.ChangesDialog/65.24.1375.876@65.24.1375.876" timestamp="1600758978035" />
+    <state width="688" height="452" key="XDebugger.FullValuePopup" timestamp="1601104176785">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state width="688" height="452" key="XDebugger.FullValuePopup/65.24.1375.876@65.24.1375.876" timestamp="1601104176785" />
     <state x="501" y="227" key="chooseDestDirectoryDialog" timestamp="1599908520540">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -935,11 +1057,11 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="392" y="191" width="719" height="678" key="search.everywhere.popup/65.24.1375.876@65.24.1375.876" timestamp="1600931094262" />
-    <state x="498" y="214" key="spring file set editor" timestamp="1601020602189">
+    <state x="498" y="214" key="spring file set editor" timestamp="1601089133345">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="604" y="225" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1600837988693" />
-    <state x="498" y="214" key="spring file set editor/65.24.1375.876@65.24.1375.876" timestamp="1601020602189" />
+    <state x="498" y="214" key="spring file set editor/65.24.1375.876@65.24.1375.876" timestamp="1601089133345" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1056,7 +1178,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/controller/indexController.java</url>
-          <line>33</line>
+          <line>32</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -1106,7 +1228,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/daodao/src/main/java/daodao/service/imp/contentServiceImp.java</url>
-          <line>36</line>
+          <line>53</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -1115,48 +1237,33 @@
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp/contentServiceImp.java</url>
-          <line>43</line>
+          <line>42</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp/contentServiceImp.java</url>
-          <line>45</line>
+          <line>43</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp/contentServiceImp.java</url>
-          <line>48</line>
+          <line>45</line>
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/controller/indexController.java</url>
-          <line>30</line>
+          <line>29</line>
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp/contentServiceImp.java</url>
-          <line>60</line>
+          <line>57</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp/contentServiceImp.java</url>
-          <line>62</line>
+          <line>58</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1169,6 +1276,66 @@
           <line>108</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientCluster.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientCluster.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientSingle.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientSingle.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientSingle.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/dao/imp/JedisClientSingle.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/contentServiceImp.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/controller/redisController.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/service/imp/redisServiceImp.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/restWeb/src/main/java/rest/controller/itemCatController.java</url>
           <line>28</line>
@@ -1177,6 +1344,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="result" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/daodao$GeneratorTest.ic" NAME="GeneratorTest Coverage Results" MODIFIED="1599733928041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

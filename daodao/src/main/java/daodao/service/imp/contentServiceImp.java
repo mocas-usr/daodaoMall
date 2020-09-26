@@ -10,7 +10,9 @@ import daodao.dao.TbContentMapper;
 import daodao.entity.TbContent;
 import daodao.entity.pojo.TaotaoResult;
 import daodao.service.contentService;
+import daodao.service.util.HttpClientUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -27,12 +29,27 @@ public class contentServiceImp implements contentService {
     @Autowired
     private TbContentMapper contentMapper;
 
+    @Value("${REST_BASE_URL}")
+    private String REST_BASE_URL;
+
+    @Value("${REST_CONTENT_URL}")
+    private String REST_CONTENT_URL;
+
     @Override
     public TaotaoResult insertContent(TbContent content) {
         //补全pojo
         content.setCreated(new Date());
         content.setUpdated(new Date());
         contentMapper.insert(content);
+
+        //缓存同步
+        try {
+            HttpClientUtil.doGet(REST_BASE_URL+REST_CONTENT_URL+content.getCategoryId());
+
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
 
         return TaotaoResult.ok();
     }
