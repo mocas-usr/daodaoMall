@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="daodao (1)" />
+        <module name="search" />
         <module name="portalWeb" />
         <module name="restWeb" />
       </profile>
