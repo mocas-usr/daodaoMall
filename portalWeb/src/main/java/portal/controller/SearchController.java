@@ -28,16 +28,24 @@ public class SearchController {
     @Autowired
     private SearchService searchService;
 
+    /**
+     * @Description:查找商品信息
+     * @Author: mocas_wang
+     * @Date: 下午7:22 2020/9/28
+     * @Param: [queryString, page, model]
+     * @return: java.lang.String
+    **/
+
     @RequestMapping("/search")
     public String search(@RequestParam("q")String queryString, @RequestParam(defaultValue="1")Integer page, Model model) {
         if (queryString != null) {
-
-            try {
-                queryString = new String(queryString.getBytes("ISO-8859-1"), "UTF-8");
-                queryString=toUTF8(queryString);
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
-            }
+            queryString=queryString;
+//            try {
+//                queryString = new String(queryString.getBytes("ISO-8859-1"), "UTF-8");
+//                queryString=toUTF8(queryString);
+//            } catch (UnsupportedEncodingException e) {
+//                e.printStackTrace();
+//            }
         }
         SearchResult searchResult = searchService.search(queryString, page);
         //向页面传递参数
