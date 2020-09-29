@@ -65,7 +65,6 @@ public class SearchController {
      * @Param: [str]
      * @return: java.lang.String
     **/
-
     public String toUTF8(String str) {
 
         try {
