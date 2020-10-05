@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="daodao (1)" />
         <module name="search" />
+        <module name="daodao (1)" />
         <module name="portalWeb" />
         <module name="restWeb" />
+        <module name="sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="daodao_rest" target="1.7" />
       <module name="portal" target="1.7" />
       <module name="rest" target="1.7" />
+      <module name="SSO" target="1.7" />
       <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>

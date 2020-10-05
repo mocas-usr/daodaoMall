@@ -20,6 +20,9 @@
         <module>
             search
         </module>
+        <module>
+            sso
+        </module>
     </modules>
     <packaging>pom</packaging>
 

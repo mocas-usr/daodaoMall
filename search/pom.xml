@@ -40,6 +40,7 @@
     <dependency>
       <groupId>org.sdu</groupId>
       <artifactId>daodao</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
