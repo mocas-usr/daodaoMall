@@ -28,29 +28,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6f6d969-44a4-4564-aba2-fd3203983749" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sso_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/dao/JedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/dao/imp/JedisClientCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/dao/imp/JedisClientSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/service/TaotaoResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/applicationContext-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso/sso.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daodao/src/main/java/daodao/util/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portalWeb/src/main/java/portal/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restWeb/src/main/java/rest/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search/src/main/java/search/service/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/css/passport.base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/css/regist.personal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/544a11d3Na5a3d566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/login-all-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/one4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/one5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/one6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/phone-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/regist-btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/regist-word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/images/taotao-logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/webapp/js/jquery-1.6.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/sso_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sso_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/search/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbContentCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbContentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbItemCatMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbItemDescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbItemParamItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbItemParamMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbOrderItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbOrderShippingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/mapper/TbUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portalWeb/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/webapp/js/base-v1.js" beforeDir="false" afterPath="$PROJECT_DIR$/portalWeb/src/main/webapp/js/base-v1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portalWeb/src/main/webapp/js/taotao.js" beforeDir="false" afterPath="$PROJECT_DIR$/portalWeb/src/main/webapp/js/taotao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/sso/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/sso/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,22 +156,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sso/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sso/src/main/java/sso/utils" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30197555" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sso/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/daodao_rest/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sso/src/main/java/sso/dao" />
-      <recent name="$PROJECT_DIR$/sso/src/main/resources" />
-      <recent name="$PROJECT_DIR$/portalWeb/src/main/java/portal/pojo" />
-      <recent name="$PROJECT_DIR$/portalWeb/src/main/java/portal/service/imp" />
-      <recent name="$PROJECT_DIR$/search/src/main/java/search/pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sso.dao" />
@@ -160,13 +179,15 @@
       <recent name="daodao.service.util" />
       <recent name="portal.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/daodao_rest/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sso/src/main/java/sso/utils" />
+      <recent name="$PROJECT_DIR$/search/src/main/java/search/service" />
+      <recent name="$PROJECT_DIR$/restWeb/src/main/java/rest/utils" />
+      <recent name="$PROJECT_DIR$/portalWeb/src/main/java/portal/utils" />
+      <recent name="$PROJECT_DIR$/daodao/src/main/java/daodao/util" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.sso">
+  <component name="RunManager" selected="Tomcat Server.portalWeb">
     <configuration name="JedisTest.testJedisSingle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="restWeb" />
       <extension name="coverage">
@@ -257,6 +278,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_daodao_10" />
+        <option name="JNDI_PORT" value="1090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -319,7 +341,8 @@
       </method>
     </configuration>
     <configuration name="portalWeb" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8086/" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <deployment>
         <artifact name="portalWeb:war exploded">
           <settings>
@@ -328,9 +351,10 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_daodao_11" />
-        <option name="HTTP_PORT" value="8082" />
-        <option name="JNDI_PORT" value="1098" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_daodao_13" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+        <option name="HTTP_PORT" value="8086" />
+        <option name="JNDI_PORT" value="1091" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -338,7 +362,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="45809" />
+        <option name="DEBUG_PORT" value="46011" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -541,7 +565,6 @@
       </method>
     </configuration>
     <configuration name="sso" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="sso:war exploded">
           <settings>
@@ -666,7 +689,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -708,7 +731,8 @@
       <workItem from="1600861823659" duration="137000" />
       <workItem from="1600909742368" duration="32584000" />
       <workItem from="1601342510397" duration="10270000" />
-      <workItem from="1601884063656" duration="7959000" />
+      <workItem from="1601884063656" duration="8140000" />
+      <workItem from="1601895361539" duration="43572000" />
     </task>
     <task id="LOCAL-00001" summary="首次创建">
       <created>1599719917118</created>
@@ -822,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601292211242</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="sso登录准备">
+      <created>1601894538189</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601894538189</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -860,7 +891,8 @@
     <MESSAGE value="修复商场主页" />
     <MESSAGE value="solr搜索" />
     <MESSAGE value="修复中文字符串问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复中文字符串问题" />
+    <MESSAGE value="sso登录准备" />
+    <option name="LAST_COMMIT_MESSAGE" value="sso登录准备" />
   </component>
   <component name="WindowStateProjectService">
     <state x="708" y="313" key="#BuildArtifactsBeforeRunChooser" timestamp="1600846106876">
@@ -872,11 +904,11 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="352" y="111" key="#Inspections/65.24.1375.876@65.24.1375.876" timestamp="1600779014820" />
-    <state x="300" y="110" width="904" height="675" key="#Project_Structure" timestamp="1601863822865">
+    <state x="300" y="110" width="904" height="675" key="#Project_Structure" timestamp="1602032134658">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="328" y="102" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600838039733" />
-    <state x="300" y="110" width="904" height="675" key="#Project_Structure/65.24.1375.876@65.24.1375.876" timestamp="1601863822865" />
+    <state x="300" y="110" width="904" height="675" key="#Project_Structure/65.24.1375.876@65.24.1375.876" timestamp="1602032134658" />
     <state x="352" y="28" width="814" height="840" key="#Tomcat_9.0.37" timestamp="1600071029397">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -897,23 +929,23 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="484" y="310" width="828" height="320" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/65.24.1375.876@65.24.1375.876" timestamp="1600740505738" />
-    <state x="590" y="307" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1600131805252">
+    <state x="590" y="307" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1602072290716">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="590" y="307" key="#com.intellij.debugger.actions.ViewTextAction/65.24.1375.876@65.24.1375.876" timestamp="1600131805252" />
+    <state x="590" y="307" key="#com.intellij.debugger.actions.ViewTextAction/65.24.1375.876@65.24.1375.876" timestamp="1602072290716" />
     <state x="549" y="397" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog" timestamp="1599902383896">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="549" y="397" key="#com.intellij.debugger.ui.breakpoints.BreakpointsConfigurationDialogFactory.BreakpointsConfigurationDialog.AddFieldBreakpointDialog/65.24.1375.876@65.24.1375.876" timestamp="1599902383896" />
-    <state x="186" y="59" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601886729220">
+    <state x="186" y="59" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602032084874">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="169" y="41" width="1092" height="815" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600846107779" />
-    <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1601886729220" />
-    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1601880717088">
+    <state x="186" y="59" width="1197" height="841" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.24.1375.876@65.24.1375.876" timestamp="1602032084874" />
+    <state x="563" y="158" width="378" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1601897913091">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="563" y="158" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1601880717088" />
+    <state x="563" y="158" width="378" height="581" key="#com.intellij.ide.util.MemberChooser/65.24.1375.876@65.24.1375.876" timestamp="1601897913091" />
     <state x="497" y="253" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599902382229">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -944,30 +976,34 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="490" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.1375.876@65.24.1375.876" timestamp="1601887364495" />
-    <state x="352" y="28" width="814" height="803" key="#daodao" timestamp="1600849905677">
+    <state x="352" y="28" width="814" height="803" key="#daodao" timestamp="1601969918155">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="352" y="28" width="814" height="803" key="#daodao/65.24.1375.876@65.24.1375.876" timestamp="1600849905677" />
+    <state x="352" y="28" width="814" height="803" key="#daodao/65.24.1375.876@65.24.1375.876" timestamp="1601969918155" />
     <state x="393" y="60" key="#portal" timestamp="1600847983552">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="393" y="60" key="#portal/65.24.1375.876@65.24.1375.876" timestamp="1600847983552" />
-    <state x="352" y="28" key="#restWeb" timestamp="1600859178725">
+    <state x="352" y="28" width="814" height="840" key="#portalWeb" timestamp="1602032291810">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="352" y="28" key="#restWeb/65.24.1375.876@65.24.1375.876" timestamp="1600859178725" />
-    <state x="352" y="28" key="#search" timestamp="1601279782358">
+    <state x="352" y="28" width="814" height="840" key="#portalWeb/65.24.1375.876@65.24.1375.876" timestamp="1602032291810" />
+    <state x="352" y="28" key="#restWeb" timestamp="1602031942659">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="352" y="28" key="#search/65.24.1375.876@65.24.1375.876" timestamp="1601279782358" />
-    <state x="352" y="47" width="814" height="803" key="#sso" timestamp="1601884863380">
+    <state x="352" y="28" key="#restWeb/65.24.1375.876@65.24.1375.876" timestamp="1602031942659" />
+    <state x="352" y="28" key="#search" timestamp="1602031946664">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="352" y="47" width="814" height="803" key="#sso/65.24.1375.876@65.24.1375.876" timestamp="1601884863380" />
-    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2" timestamp="1601367541635">
+    <state x="352" y="28" key="#search/65.24.1375.876@65.24.1375.876" timestamp="1602031946664" />
+    <state x="352" y="47" width="814" height="803" key="#sso" timestamp="1601969950482">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1601367541635" />
+    <state x="352" y="47" width="814" height="803" key="#sso/65.24.1375.876@65.24.1375.876" timestamp="1601969950482" />
+    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2" timestamp="1601894537693">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="247" y="38" width="1011" height="821" key="CommitChangelistDialog2/65.24.1375.876@65.24.1375.876" timestamp="1601894537693" />
     <state width="540" height="466" key="DebuggerActiveHint" timestamp="1601281630259">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -989,46 +1025,46 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="65" y="24" key="FileDocumentManager.FileCacheConflict/65.24.1375.876@65.24.1375.876" timestamp="1601886341217" />
-    <state width="1099" height="319" key="GridCell.Tab.0.bottom" timestamp="1601892466571">
+    <state width="1099" height="349" key="GridCell.Tab.0.bottom" timestamp="1602074699202">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1099" height="319" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601892466571" />
-    <state width="1099" height="319" key="GridCell.Tab.0.center" timestamp="1601892466570">
+    <state width="1099" height="349" key="GridCell.Tab.0.bottom/65.24.1375.876@65.24.1375.876" timestamp="1602074699202" />
+    <state width="1099" height="349" key="GridCell.Tab.0.center" timestamp="1602074699201">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1099" height="319" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1601892466570" />
-    <state width="1099" height="319" key="GridCell.Tab.0.left" timestamp="1601892466570">
+    <state width="1099" height="349" key="GridCell.Tab.0.center/65.24.1375.876@65.24.1375.876" timestamp="1602074699201" />
+    <state width="1099" height="349" key="GridCell.Tab.0.left" timestamp="1602074699194">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1099" height="319" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1601892466570" />
-    <state width="1099" height="319" key="GridCell.Tab.0.right" timestamp="1601892466570">
+    <state width="1099" height="349" key="GridCell.Tab.0.left/65.24.1375.876@65.24.1375.876" timestamp="1602074699194" />
+    <state width="1099" height="349" key="GridCell.Tab.0.right" timestamp="1602074699202">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847190048" />
-    <state width="1099" height="319" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1601892466570" />
-    <state width="1099" height="319" key="GridCell.Tab.1.bottom" timestamp="1601894059137">
+    <state width="1099" height="349" key="GridCell.Tab.0.right/65.24.1375.876@65.24.1375.876" timestamp="1602074699202" />
+    <state width="1099" height="349" key="GridCell.Tab.1.bottom" timestamp="1602074721580">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1099" height="319" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601894059137" />
-    <state width="1099" height="319" key="GridCell.Tab.1.center" timestamp="1601894059137">
+    <state width="1099" height="349" key="GridCell.Tab.1.bottom/65.24.1375.876@65.24.1375.876" timestamp="1602074721580" />
+    <state width="1099" height="349" key="GridCell.Tab.1.center" timestamp="1602074721579">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1099" height="319" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1601894059137" />
-    <state width="1099" height="319" key="GridCell.Tab.1.left" timestamp="1601894059136">
+    <state width="1099" height="349" key="GridCell.Tab.1.center/65.24.1375.876@65.24.1375.876" timestamp="1602074721579" />
+    <state width="1099" height="349" key="GridCell.Tab.1.left" timestamp="1602074721575">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1099" height="319" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1601894059136" />
-    <state width="1099" height="319" key="GridCell.Tab.1.right" timestamp="1601894059137">
+    <state width="1099" height="349" key="GridCell.Tab.1.left/65.24.1375.876@65.24.1375.876" timestamp="1602074721575" />
+    <state width="1099" height="349" key="GridCell.Tab.1.right" timestamp="1602074721580">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847252180" />
-    <state width="1099" height="319" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1601894059137" />
+    <state width="1099" height="349" key="GridCell.Tab.1.right/65.24.1375.876@65.24.1375.876" timestamp="1602074721580" />
     <state width="905" height="297" key="GridCell.Tab.11.bottom" timestamp="1601884746320">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -1061,46 +1097,46 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="905" height="297" key="GridCell.Tab.12.right/65.24.1375.876@65.24.1375.876" timestamp="1601884745122" />
-    <state width="1099" height="319" key="GridCell.Tab.2.bottom" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.2.bottom" timestamp="1602074699207">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.2.center" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.2.bottom/65.24.1375.876@65.24.1375.876" timestamp="1602074699207" />
+    <state width="1099" height="349" key="GridCell.Tab.2.center" timestamp="1602074699207">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.2.left" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.2.center/65.24.1375.876@65.24.1375.876" timestamp="1602074699207" />
+    <state width="1099" height="349" key="GridCell.Tab.2.left" timestamp="1602074699207">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189803" />
-    <state width="1099" height="319" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.2.right" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.2.left/65.24.1375.876@65.24.1375.876" timestamp="1602074699207" />
+    <state width="1099" height="349" key="GridCell.Tab.2.right" timestamp="1602074699207">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.3.bottom" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.2.right/65.24.1375.876@65.24.1375.876" timestamp="1602074699207" />
+    <state width="1099" height="349" key="GridCell.Tab.3.bottom" timestamp="1602074699208">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.3.bottom/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.3.center" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.3.bottom/65.24.1375.876@65.24.1375.876" timestamp="1602074699208" />
+    <state width="1099" height="349" key="GridCell.Tab.3.center" timestamp="1602074699207">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.3.center/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.3.left" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.3.center/65.24.1375.876@65.24.1375.876" timestamp="1602074699207" />
+    <state width="1099" height="349" key="GridCell.Tab.3.left" timestamp="1602074699207">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.3.left/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
-    <state width="1099" height="319" key="GridCell.Tab.3.right" timestamp="1601892466442">
+    <state width="1099" height="349" key="GridCell.Tab.3.left/65.24.1375.876@65.24.1375.876" timestamp="1602074699207" />
+    <state width="1099" height="349" key="GridCell.Tab.3.right" timestamp="1602074699208">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state width="1529" height="343" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600847189804" />
-    <state width="1099" height="319" key="GridCell.Tab.3.right/65.24.1375.876@65.24.1375.876" timestamp="1601892466442" />
+    <state width="1099" height="349" key="GridCell.Tab.3.right/65.24.1375.876@65.24.1375.876" timestamp="1602074699208" />
     <state width="905" height="294" key="GridCell.Tab.4.bottom" timestamp="1601261794672">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -1145,11 +1181,11 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="173" y="106" key="Registry/65.24.1375.876@65.24.1375.876" timestamp="1600745801340" />
-    <state x="134" y="106" width="1252" height="728" key="SettingsEditor" timestamp="1601886707241">
+    <state x="113" y="117" width="1252" height="728" key="SettingsEditor" timestamp="1602032017704">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="423" y="117" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600845952346" />
-    <state x="134" y="106" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1601886707241" />
+    <state x="113" y="117" width="1252" height="728" key="SettingsEditor/65.24.1375.876@65.24.1375.876" timestamp="1602032017704" />
     <state width="264" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1600066177753">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -1162,14 +1198,18 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="450" y="186" key="VcsDiffUtil.ChangesDialog/65.24.1375.876@65.24.1375.876" timestamp="1600758978035" />
-    <state width="688" height="452" key="XDebugger.FullValuePopup" timestamp="1601254806712">
+    <state width="688" height="452" key="XDebugger.FullValuePopup" timestamp="1601947008254">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state width="688" height="452" key="XDebugger.FullValuePopup/65.24.1375.876@65.24.1375.876" timestamp="1601254806712" />
+    <state width="688" height="452" key="XDebugger.FullValuePopup/65.24.1375.876@65.24.1375.876" timestamp="1601947008254" />
     <state x="501" y="227" key="chooseDestDirectoryDialog" timestamp="1599908520540">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="501" y="227" key="chooseDestDirectoryDialog/65.24.1375.876@65.24.1375.876" timestamp="1599908520540" />
+    <state x="330" y="97" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1602032208109">
+      <screen x="65" y="24" width="1375" height="876" />
+    </state>
+    <state x="330" y="97" key="com.intellij.javaee.view.ServerArtifactsDialog/65.24.1375.876@65.24.1375.876" timestamp="1602032208109" />
     <state x="107" y="70" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600065910135">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -1178,10 +1218,10 @@
       <screen x="65" y="24" width="1375" height="876" />
     </state>
     <state x="263" y="188" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/65.24.1375.876@65.24.1375.876" timestamp="1600994054078" />
-    <state x="308" y="171" width="968" height="674" key="find.popup" timestamp="1601348688948">
+    <state x="308" y="171" width="968" height="674" key="find.popup" timestamp="1601973467554">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
-    <state x="308" y="171" width="968" height="674" key="find.popup/65.24.1375.876@65.24.1375.876" timestamp="1601348688948" />
+    <state x="308" y="171" width="968" height="674" key="find.popup/65.24.1375.876@65.24.1375.876" timestamp="1601973467554" />
     <state x="473" y="233" key="git4idea.merge.GitPullDialog" timestamp="1599719886293">
       <screen x="65" y="24" width="1375" height="876" />
     </state>
@@ -1214,46 +1254,186 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
-          <line>60</line>
+          <line>66</line>
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
-          <line>36</line>
+          <line>42</line>
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
-          <line>67</line>
+          <line>73</line>
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
-          <line>71</line>
+          <line>77</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
-          <line>39</line>
+          <line>45</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
-          <line>34</line>
+          <line>61</line>
           <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
-          <line>39</line>
+          <line>66</line>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
-          <line>56</line>
+          <line>83</line>
           <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/service/imp/UserServiceImp.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/utils/CookieUtils.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso/src/main/java/sso/controller/UserController.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="298" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="DigestUtils.md5DigestAsHex(password.getBytes())" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/daodao$GeneratorTest.ic" NAME="GeneratorTest Coverage Results" MODIFIED="1599733928041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -8,14 +8,29 @@ var TT = TAOTAO = {
 			url : "http://localhost:8084/user/token/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
+			jsonp:'jsonpCallback',
+			jsonpCallback:"successCallback",
 			success : function(data){
 				if(data.status == 200){
 					var username = data.data.username;
 					var html = username + "，欢迎来到淘淘！<a href=\"http://www.taotao.com/user/logout.html\" class=\"link-logout\">[退出]</a>";
 					$("#loginbar").html(html);
 				}
-			}
+			},
+			error: function (data) {
+				data=JSON.parse(data);
+				if(data.status == 200){
+					var username = data.data.username;
+					var html = username + "，欢迎来到淘淘！<a href=\"http://www.taotao.com/user/logout.html\" class=\"link-logout\">[退出]</a>";
+					$("#loginbar").html(html);
+				}
+			},
+
 		});
+		function successCallback(result) {
+			console.log();
+			alert("关注成功");
+		}
 	}
 }
 

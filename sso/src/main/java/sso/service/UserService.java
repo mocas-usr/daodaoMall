@@ -6,6 +6,11 @@ package sso.service;/**
  * @email: wangyuhang_mocas@163.com
  */
 
+import daodao.entity.TbUser;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 /**
  *@program: daodao
  *@description:
@@ -14,5 +19,8 @@ package sso.service;/**
  */
 public interface UserService {
     TaotaoResult checkData(String content,Integer type);
+    TaotaoResult createUser(TbUser tbUser);
+    TaotaoResult userLogin(String username, String password, HttpServletRequest request, HttpServletResponse response);
+    TaotaoResult getUserByToken(String token);
 
 }
