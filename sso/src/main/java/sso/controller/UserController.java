@@ -110,6 +110,16 @@ public class UserController {
         }
     }
 
+
+    /** 跨域申请jsonp时，取用户数据
+     * @Description:
+     * @Author: mocas_wang
+     * @Date: 下午3:18 2020/10/8
+     * @Param: [token,
+     * jsonpCallback]
+     * @return: java.lang.Object
+    **/
+
     @RequestMapping(value = "/token/{token}",produces = {"application/jsonp;charset=UTF-8"})
     @ResponseBody
     public Object getUserByToken(@PathVariable String token, String jsonpCallback) {
@@ -130,14 +140,32 @@ public class UserController {
 //            MappingJacksonValue mappingJacksonValue = new MappingJacksonValue(result);
 //            mappingJacksonValue.setJsonpFunction(jsonpCallback);
 //            return mappingJacksonValue;
-
             /*直接构建jsonp格式*/
             resultStr=jsonpCallback+"("+JsonUtils.objectToJson(result)+")";
             return resultStr;
 
         }
-
     }
 
 
+    /**
+     * @Description:通过token获取用户信息，不跨域
+     * @Author: mocas_wang
+     * @Date: 下午3:20 2020/10/8
+     * @Param: [token]
+     * @return: java.lang.Object
+     * **/
+    @RequestMapping(value = "/token/user/{token}")
+    @ResponseBody
+    public Object getUserBy(@PathVariable String token) {
+        TaotaoResult result = null;
+        try {
+            result = userService.getUserByToken(token);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            result = TaotaoResult.build(500, e.getMessage());
+        }
+        return result;
+    }
 }
