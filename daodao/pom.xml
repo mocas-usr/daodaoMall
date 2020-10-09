@@ -32,6 +32,23 @@
                 compile
             </scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.sdu</groupId>-->
+<!--            <artifactId>daodao-all</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--            <exclusions>-->
+<!--                <exclusion>-->
+<!--                    <groupId>javaee</groupId>-->
+<!--                    <artifactId>javaee-api</artifactId>-->
+<!--                </exclusion>-->
+<!--            </exclusions>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
     <parent>
         <artifactId>
@@ -56,6 +73,91 @@
 
     <build>
         <finalName>daodao</finalName>
+            <plugins>
+                <!-- 配置Tomcat插件 -->
+                <plugin>
+                    <groupId>org.apache.tomcat.maven</groupId>
+                    <artifactId>tomcat7-maven-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <port>8080</port>
+                        <!-- 部署到ROOT下 -->
+                        <path>/</path>
+                        <server>tomcat9</server>
+                        <!-- tomcat的地址和端口，manager/text是固定的 -->
+                        <url>http://localhost:8080/manager/text</url>
+                        <update>true</update>
+                        <username>tomcat</username>
+                        <password>tomcat</password>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <artifactId>
+                        maven-clean-plugin
+                    </artifactId>
+                    <version>
+                        3.1.0
+                    </version>
+                </plugin>
+                <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+                <plugin>
+                    <artifactId>
+                        maven-resources-plugin
+                    </artifactId>
+                    <version>
+                        3.0.2
+                    </version>
+                </plugin>
+                <plugin>
+                    <artifactId>
+                        maven-compiler-plugin
+                    </artifactId>
+                    <version>
+                        3.8.0
+                    </version>
+                </plugin>
+                <plugin>
+                    <artifactId>
+                        maven-surefire-plugin
+                    </artifactId>
+                    <!-- <version>
+                         2.22.1
+                     </version>-->
+                </plugin>
+                <plugin>
+                    <artifactId>
+                        maven-war-plugin
+                    </artifactId>
+                    <version>
+                        3.2.2
+                    </version>
+                </plugin>
+                <plugin>
+                    <artifactId>
+                        maven-install-plugin
+                    </artifactId>
+                    <version>
+                        2.5.2
+                    </version>
+                </plugin>
+                <plugin>
+                    <artifactId>
+                        maven-deploy-plugin
+                    </artifactId>
+                    <version>
+                        2.8.2
+                    </version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.3</version>
+                    <configuration>
+                        <source>1.8</source>
+                        <target>1.8</target>
+                    </configuration>
+                </plugin>
+            </plugins>
     </build>
 
 </project>

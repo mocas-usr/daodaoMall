@@ -1,13 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="daodao (1):war exploded">
-    <output-path>$PROJECT_DIR$/daodao/target/daodao</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <exploded>true</exploded>
-        <module>daodao (1)</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
+    <output-path>$PROJECT_DIR$/out/artifacts/daodao__1__war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -17,7 +10,6 @@
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.6" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.10" />
           <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
-          <element id="library" level="project" name="Maven: javaee:javaee-api:5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" />
@@ -65,9 +57,6 @@
           <element id="library" level="project" name="Maven: org.noggit:noggit:0.5" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.6" />
         </element>
-      </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/daodao/target/daodao/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="daodao (1)/web/Web" />
     </root>
