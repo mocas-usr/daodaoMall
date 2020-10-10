@@ -17,7 +17,7 @@ import rest.utils.JsonUtils;
 
 /**
  *@program: daodao
- *@description:
+ *@description:商品
  *@author: mocas_wang
  *@create: 2020-09-16 18:11
  */

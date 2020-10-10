@@ -35,6 +35,14 @@ public class contentServiceImp implements contentService {
     @Value("${REST_INDEX_AD_URL}")
     private String  REST_INDEX_AD_URL;
 
+    /**
+     * @Description:商品内容列表
+     * @Author: mocas_wang
+     * @Date: 下午3:54 2020/10/10
+     * @Param: []
+     * @return: java.lang.String
+    **/
+
     @Override
     public String getContentList() {
         //调用服务层服务

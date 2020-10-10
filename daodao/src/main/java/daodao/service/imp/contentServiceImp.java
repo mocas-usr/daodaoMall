@@ -19,7 +19,7 @@ import java.util.Date;
 
 /**
  *@program: daodao
- *@description:
+ *@description:内容获取
  *@author: mocas_wang
  *@create: 2020-09-24 14:29
  */
@@ -34,6 +34,14 @@ public class contentServiceImp implements contentService {
 
     @Value("${REST_CONTENT_URL}")
     private String REST_CONTENT_URL;
+
+    /**
+     * @Description:插入商品内容
+     * @Author: mocas_wang
+     * @Date: 下午3:48 2020/10/10
+     * @Param: [content]
+     * @return: daodao.entity.pojo.TaotaoResult
+    **/
 
     @Override
     public TaotaoResult insertContent(TbContent content) {

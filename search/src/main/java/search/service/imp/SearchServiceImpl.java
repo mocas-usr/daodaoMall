@@ -15,7 +15,7 @@ import search.service.SearchService;
 
 /**
  *@program: daodao
- *@description:
+ *@description:查找服务
  *@author: mocas_wang
  *@create: 2020-09-28 11:18
  */
@@ -24,6 +24,15 @@ public class SearchServiceImpl implements SearchService {
 
     @Autowired
     private SearchDao searchDao;
+    /**
+     * @Description:根据信息查找
+     * @Author: mocas_wang
+     * @Date: 下午3:58 2020/10/10
+     * @Param: [queryString, 查找关键词
+     * page, rows]
+     * @return: search.pojo.SearchResult
+    **/
+
     @Override
     public SearchResult search(String queryString, int page, int rows) throws Exception {
         //创建查询对象

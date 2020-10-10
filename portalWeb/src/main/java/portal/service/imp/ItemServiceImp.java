@@ -22,7 +22,7 @@ import java.util.Map;
 
 /**
  *@program: daodao
- *@description:
+ *@description:商品
  *@author: mocas_wang
  *@create: 2020-09-29 10:11
  */
@@ -37,6 +37,14 @@ public class ItemServiceImp implements ItemService {
     private String ITEM_DESC_URL;
     @Value("${ITEM_PARAM_URL}")
     private String ITEM_PARAM_URL;
+
+    /**
+     * @Description:通过id获取商品
+     * @Author: mocas_wang
+     * @Date: 下午3:55 2020/10/10
+     * @Param: [itemId]
+     * @return: portal.pojo.ItemInfo
+    **/
 
     @Override
     public ItemInfo getItemById(Long itemId) {
@@ -59,6 +67,14 @@ public class ItemServiceImp implements ItemService {
     }
 
 
+    /**
+     * @Description:通过商品id获取货物描述
+     * @Author: mocas_wang
+     * @Date: 下午3:55 2020/10/10
+     * @Param: [itemId]
+     * @return: java.lang.String
+    **/
+
     @Override
     public String getItemDescById(Long itemId) {
         try {
@@ -78,6 +94,14 @@ public class ItemServiceImp implements ItemService {
         return null;
     }
 
+
+    /**
+     * @Description:获取购物参数
+     * @Author: mocas_wang
+     * @Date: 下午3:55 2020/10/10
+     * @Param: [itemId]
+     * @return: java.lang.String
+    **/
 
     @Override
     public String getItemParam(Long itemId) {

@@ -27,6 +27,14 @@ public class contentController {
     @Autowired
     private contentService contentService;
 
+    /**
+     * @Description:增加内容节点
+     * @Author: mocas_wang
+     * @Date: 下午3:43 2020/10/10
+     * @Param: [tbContent]
+     * @return: daodao.entity.pojo.TaotaoResult
+    **/
+
     @RequestMapping("/save")
     @ResponseBody
     public TaotaoResult insertContent(TbContent tbContent)

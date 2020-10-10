@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  *@program: daodao
- *@description:
+ *@description:商品内容
  *@author: mocas_wang
  *@create: 2020-09-24 15:35
  */

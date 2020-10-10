@@ -19,7 +19,7 @@ import javax.xml.ws.handler.Handler;
 
 /**
  *@program: daodao
- *@description:
+ *@description:单点登录
  *@author: mocas_wang
  *@create: 2020-10-08 09:44
  */
@@ -27,6 +27,16 @@ public class LoginInterceptor implements HandlerInterceptor {
 
     @Autowired
     private UserServiceImp userService;
+
+    /**
+     * @Description:单点登录预处理
+     * @Author: mocas_wang
+     * @Date: 下午3:53 2020/10/10
+     * @Param: [request,请求
+     * response,相应
+     * o]是否通过
+     * @return: boolean
+    **/
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {

@@ -5,6 +5,14 @@ import redis.clients.jedis.JedisCluster;
 
 import sso.dao.JedisClient;
 
+/**
+ * @Description:集群redis
+ * @Author: mocas_wang
+ * @Date: 下午4:01 2020/10/10
+ * @Param:
+ * @return:
+**/
+
 public class JedisClientCluster implements JedisClient {
 
 	@Autowired

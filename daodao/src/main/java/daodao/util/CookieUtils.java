@@ -13,6 +13,14 @@ import javax.servlet.http.HttpServletResponse;
  * Cookie 工具类
  *
  */
+/**
+ * @Description:Cookie工具类
+ * @Author: mocas_wang
+ * @Date: 下午3:49 2020/10/10
+ * @Param:
+ * @return:
+**/
+
 public final class CookieUtils {
 
     /**

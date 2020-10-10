@@ -15,7 +15,7 @@ import rest.service.redisService;
 
 /**
  *@program: daodao
- *@description:
+ *@description:redis存储
  *@author: mocas_wang
  *@create: 2020-09-26 16:26
  */
@@ -28,6 +28,14 @@ public class redisServiceImp  implements redisService {
 
     @Value("${INDEX_CONTENT_REDIS_KEY}")
     private String  INDEX_CONTENT_REDIS_KEY;
+
+    /**
+     * @Description:redis设置数值
+     * @Author: mocas_wang
+     * @Date: 下午4:14 2020/10/10
+     * @Param: [contentCid]
+     * @return: rest.pojo.TaotaoResult
+    **/
 
     @Override
     public TaotaoResult syscontent(long contentCid) {

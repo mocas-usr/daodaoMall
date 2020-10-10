@@ -30,6 +30,14 @@ public class itemParamItemServiceImp implements itemParamItemService {
     @Autowired
     private TbItemParamItemMapper itemParamItemMapper;
 
+    /**
+     * @Description:根据id查询商品参数
+     * @Author: mocas_wang
+     * @Date: 下午3:48 2020/10/10
+     * @Param: [itemId]
+     * @return: java.lang.String
+    **/
+
     @Override
     public String getItemParamByItemId(long itemId) {
         //根据商品id查询参数

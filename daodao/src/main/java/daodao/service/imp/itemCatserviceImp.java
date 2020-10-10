@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  *@program: daodao
- *@description:
+ *@description:商品处理
  *@author: mocas_wang
  *@create: 2020-09-13 09:04
  */
@@ -27,6 +27,14 @@ import java.util.List;
 public class itemCatserviceImp implements itemCatservice {
     @Autowired
     private TbItemCatMapper tbItemCatMapper;
+
+    /**
+     * @Description:查询商品分类列表
+     * @Author: mocas_wang
+     * @Date: 下午3:48 2020/10/10
+     * @Param: [parentId]
+     * @return: java.util.List<daodao.entity.pojo.EUtreeNode>
+    **/
 
     @Override
     public List<EUtreeNode> getCatList(long parentId) {

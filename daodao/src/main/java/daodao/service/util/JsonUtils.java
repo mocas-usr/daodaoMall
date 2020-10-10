@@ -9,6 +9,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 /**
  * 淘淘商城自定义响应结构
  */
+/**
+ * @Description:淘淘商城自定义响应结构
+ * @Author: mocas_wang
+ * @Date: 下午3:47 2020/10/10
+ * @Param:
+ * @return:
+**/
+
 public class JsonUtils {
 
     // 定义jackson对象

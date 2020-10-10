@@ -18,7 +18,7 @@ import java.util.Map;
 
 /**
  *@program: daodao
- *@description:
+ *@description:搜索
  *@author: mocas_wang
  *@create: 2020-09-28 15:44
  */
@@ -27,6 +27,14 @@ public class SearchServiceImpl implements SearchService {
 
     @Value("${SEARCH_BASE_URL}")
     private String SEARCH_BASE_URL;
+
+    /**
+     * @Description:搜索业务
+     * @Author: mocas_wang
+     * @Date: 下午3:55 2020/10/10
+     * @Param: [queryString, page]
+     * @return: portal.pojo.SearchResult
+    **/
 
     @Override
     public SearchResult search(String queryString, int page) {

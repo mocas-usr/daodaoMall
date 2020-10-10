@@ -26,7 +26,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *@program: daodao
- *@description:
+ *@description:用户服务
  *@author: mocas_wang
  *@create: 2020-10-05 15:04
  */
@@ -35,6 +35,16 @@ import javax.servlet.http.HttpServletResponse;
 public class UserController {
     @Autowired
     private UserService userService;
+
+    /**
+     * @Description:校验输入有效性
+     * @Author: mocas_wang
+     * @Date: 下午3:59 2020/10/10
+     * @Param: [param,参数
+     * type, 输入的是密码还是邮箱
+     * callback]跨域回调
+     * @return: java.lang.Object
+    **/
 
     @RequestMapping("/check/{param}/{type}")
     @ResponseBody
@@ -79,7 +89,13 @@ public class UserController {
         }
     }
 
-    //创建用户
+    /**
+     * @Description:创建用户
+     * @Author: mocas_wang
+     * @Date: 下午4:00 2020/10/10
+     * @Param: [user]
+     * @return: sso.service.TaotaoResult
+    **/
     @RequestMapping(value="/register", method=RequestMethod.POST)
     @ResponseBody
     public TaotaoResult createUser(TbUser user) {
@@ -95,6 +111,16 @@ public class UserController {
 
 
     //用户登录
+    /**
+     * @Description:用户登录
+     * @Author: mocas_wang
+     * @Date: 下午4:01 2020/10/10
+     * @Param: [username, 账号
+     * password,密码
+     * request, response]
+     * @return: sso.service.TaotaoResult
+    **/
+
 //    @RequestMapping(value="/login", method=RequestMethod.POST)
     @RequestMapping(value="/login", method=RequestMethod.POST)
     @ResponseBody
@@ -112,7 +138,7 @@ public class UserController {
 
 
     /** 跨域申请jsonp时，取用户数据
-     * @Description:
+     * @Description:跨域申请jsonp时，取用户数据
      * @Author: mocas_wang
      * @Date: 下午3:18 2020/10/8
      * @Param: [token,

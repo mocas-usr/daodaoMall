@@ -15,7 +15,7 @@ import portal.service.contentService;
 
 /**
  *@program: daodao
- *@description:
+ *@description:广告页面
  *@author: mocas_wang
  *@create: 2020-09-16 14:48
  */
@@ -24,6 +24,14 @@ import portal.service.contentService;
 public class indexController {
     @Autowired
     private contentService contentService;
+
+    /**
+     * @Description:广告页面
+     * @Author: mocas_wang
+     * @Date: 下午3:51 2020/10/10
+     * @Param: [model]
+     * @return: java.lang.String
+    **/
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Model model)

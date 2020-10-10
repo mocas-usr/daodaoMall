@@ -18,6 +18,13 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+/**
+ * @Description:HttpClientUtil组件
+ * @Author: mocas_wang
+ * @Date: 下午3:46 2020/10/10
+ * @Param:
+ * @return:
+**/
 
 public class HttpClientUtil {
 

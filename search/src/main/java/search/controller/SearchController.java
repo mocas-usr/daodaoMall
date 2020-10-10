@@ -19,7 +19,7 @@ import search.service.TaotaoResult;
 
 /**
  *@program: daodao
- *@description:
+ *@description:索引服务
  *@author: mocas_wang
  *@create: 2020-09-28 11:15
  */
@@ -29,6 +29,16 @@ public class SearchController {
 
     @Autowired
     private SearchService searchService;
+
+    /**
+     * @Description:根据内容查找
+     * @Author: mocas_wang
+     * @Date: 下午3:57 2020/10/10
+     * @Param: [queryString, 关键词
+     * page, 显示的页数
+     * rows]多少行
+     * @return: search.service.TaotaoResult
+    **/
 
     @RequestMapping(value="/query", method= RequestMethod.GET)
     @ResponseBody

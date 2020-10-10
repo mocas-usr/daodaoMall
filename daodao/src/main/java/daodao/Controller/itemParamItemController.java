@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  *@program: daodao
- *@description:
+ *@description:显示商品信息
  *@author: mocas_wang
  *@create: 2020-09-15 21:02
  */

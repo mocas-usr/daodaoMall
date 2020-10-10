@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  *@program: daodao
- *@description:
+ *@description:购物车
  *@author: mocas_wang
  *@create: 2020-10-08 16:21
  */
@@ -33,6 +33,13 @@ public class CartController {
     @Autowired
     private CartService cartService;
 
+    /**
+     * @Description:购物车增加商品
+     * @Author: mocas_wang
+     * @Date: 下午3:50 2020/10/10
+     * @Param: [itemId, num, request, response]
+     * @return: java.lang.String
+    **/
     @RequestMapping("/add/{itemId}")
     public String addCartItem(@PathVariable Long itemId,
                               @RequestParam(defaultValue="1")Integer num,
@@ -41,10 +48,26 @@ public class CartController {
         return "cartSuccess";
     }
 
+    /**
+     * @Description:成功页面
+     * @Author: mocas_wang
+     * @Date: 下午3:51 2020/10/10
+     * @Param: []
+     * @return: java.lang.String
+    **/
+
     @RequestMapping("/success")
     public String showSuccess() {
         return "cartSuccess";
     }
+
+    /**
+     * @Description:显示购物车
+     * @Author: mocas_wang
+     * @Date: 下午3:51 2020/10/10
+     * @Param: [request, response, model]
+     * @return: java.lang.String
+    **/
 
     @RequestMapping("/cart")
     public String showCart(HttpServletRequest request, HttpServletResponse response, Model model) {
@@ -52,6 +75,14 @@ public class CartController {
         model.addAttribute("cartList", list);
         return "cart";
     }
+
+    /**
+     * @Description:删除购物车
+     * @Author: mocas_wang
+     * @Date: 下午3:51 2020/10/10
+     * @Param: [itemId, request, response]
+     * @return: java.lang.String
+    **/
 
     @RequestMapping("/delete/{itemId}")
     public String deleteCartItem(@PathVariable Long itemId, HttpServletRequest request, HttpServletResponse response) {

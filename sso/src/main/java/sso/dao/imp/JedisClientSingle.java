@@ -5,6 +5,13 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
 import sso.dao.JedisClient;
+/**
+ * @Description:连接池redis
+ * @Author: mocas_wang
+ * @Date: 下午4:02 2020/10/10
+ * @Param:
+ * @return:
+**/
 
 public class JedisClientSingle implements JedisClient {
 	

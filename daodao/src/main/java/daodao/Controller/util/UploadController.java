@@ -24,7 +24,7 @@ import java.util.Map;
 
 /**
  *@program: daodao
- *@description:
+ *@description:上传文件util
  *@author: mocas_wang
  *@create: 2020-09-14 14:23
  */

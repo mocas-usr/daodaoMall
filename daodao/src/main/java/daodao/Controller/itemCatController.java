@@ -30,6 +30,13 @@ public class itemCatController {
     @Autowired
     private itemCatservice itemCatservice;
 
+    /**
+     * @Description:获取分类列表
+     * @Author: mocas_wang
+     * @Date: 下午3:45 2020/10/10
+     * @Param: [parentId]
+     * @return: java.util.List<daodao.entity.pojo.EUtreeNode>
+    **/
     @RequestMapping("/getCatList")
     @ResponseBody
     public List<EUtreeNode> getCatList(@RequestParam(value = "id",defaultValue = "0") long parentId)
@@ -41,6 +48,13 @@ public class itemCatController {
 
 
     /*测试*/
+    /**
+     * @Description:测试页面
+     * @Author: mocas_wang
+     * @Date: 下午3:45 2020/10/10
+     * @Param: []
+     * @return: java.lang.String
+    **/
     @RequestMapping("/testCat")
     public String test()
     {

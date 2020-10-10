@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  *@program: daodao
- *@description:
+ *@description:商品展示
  *@author: mocas_wang
  *@create: 2020-09-11 09:12
  */
@@ -32,6 +32,14 @@ public class itemController {
 
     @Autowired
     public itemService itemService;
+
+    /**
+     * @Description:商品id获取
+     * @Author: mocas_wang
+     * @Date: 下午3:45 2020/10/10
+     * @Param: [itemId]商品id
+     * @return: daodao.entity.TbItem
+    **/
 
     @RequestMapping("/getItemById/{itemId}")
     @ResponseBody

@@ -26,6 +26,14 @@ public class redisController {
     @Autowired
     private redisService redisService;
 
+    /**
+     * @Description:redis数据存储
+     * @Author: mocas_wang
+     * @Date: 下午4:03 2020/10/10
+     * @Param: [contentCid]
+     * @return: rest.pojo.TaotaoResult
+    **/
+
     @RequestMapping("/CashSync/{contentCid}")
     @ResponseBody
     public TaotaoResult contentCashSync(@PathVariable long contentCid)

@@ -25,7 +25,7 @@ import static java.lang.Runtime.getRuntime;
 
 /**
  *@program: daodao
- *@description:
+ *@description:文件上传util
  *@author: mocas_wang
  *@create: 2020-09-14 14:19
  */

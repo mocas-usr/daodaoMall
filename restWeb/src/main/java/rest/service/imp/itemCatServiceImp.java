@@ -47,7 +47,7 @@ public class itemCatServiceImp implements itemCatService {
 
 
     /** 
-     * @Description:
+     * @Description:分类列表
      * @Author: mocas_wang
      * @Date: 上午10:13 2020/9/22
      * @Param: [parentId]

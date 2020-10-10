@@ -147,6 +147,14 @@ public class UserServiceImp implements UserService {
         return TaotaoResult.ok(token);
     }
 
+    /**
+     * @Description:根据token从redis中查询用户信息
+     * @Author: mocas_wang
+     * @Date: 下午4:02 2020/10/10
+     * @Param: [token]
+     * @return: sso.service.TaotaoResult
+    **/
+
     @Override
     public TaotaoResult getUserByToken(String token) {
         //根据token从redis中查询用户信息

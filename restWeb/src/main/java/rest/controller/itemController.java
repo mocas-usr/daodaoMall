@@ -57,6 +57,14 @@ public class itemController {
         return result;
     }
 
+    /**
+     * @Description:商品参数获取
+     * @Author: mocas_wang
+     * @Date: 下午4:10 2020/10/10
+     * @Param: [itemId]
+     * @return: rest.pojo.TaotaoResult
+    **/
+
     @RequestMapping("/param/{itemId}")
     @ResponseBody
     public TaotaoResult getItemParam(@PathVariable Long itemId) {

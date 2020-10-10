@@ -31,6 +31,14 @@ public class UserServiceImp implements UserService {
     public String SSO_PAGE_LOGIN;
 
 
+    /**
+     * @Description:根据token获取用户信息
+     * @Author: mocas_wang
+     * @Date: 下午3:56 2020/10/10
+     * @Param: [token]
+     * @return: daodao.entity.TbUser
+    **/
+
     @Override
     public TbUser getUserByToken(String token) {
         try {

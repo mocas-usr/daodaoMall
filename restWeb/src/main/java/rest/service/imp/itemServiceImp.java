@@ -49,6 +49,14 @@ public class itemServiceImp implements itemService {
     @Autowired
     private JedisClient jedisClient;
 
+    /**
+     * @Description:商品基本信息
+     * @Author: mocas_wang
+     * @Date: 下午4:12 2020/10/10
+     * @Param: [itemId]
+     * @return: rest.pojo.TaotaoResult
+    **/
+
     @Override
     public TaotaoResult getItemBaseInfo(long itemId) {
         try {
@@ -80,6 +88,14 @@ public class itemServiceImp implements itemService {
         return TaotaoResult.ok(item);
     }
 
+    /**
+     * @Description:获取商品详细信息
+     * @Author: mocas_wang
+     * @Date: 下午4:12 2020/10/10
+     * @Param: [itemId]
+     * @return: rest.pojo.TaotaoResult
+    **/
+
     @Override
     public TaotaoResult getItemDesc(long itemId) {
         //添加缓存
@@ -110,6 +126,14 @@ public class itemServiceImp implements itemService {
 
         return TaotaoResult.ok(itemDesc);
     }
+
+    /**
+     * @Description:获取商品参数
+     * @Author: mocas_wang
+     * @Date: 下午4:13 2020/10/10
+     * @Param: [itemId]
+     * @return: rest.pojo.TaotaoResult
+    **/
 
     @Override
     public TaotaoResult getItemParam(long itemId) {
