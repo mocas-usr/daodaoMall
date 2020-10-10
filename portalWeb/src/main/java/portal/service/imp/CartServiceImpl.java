@@ -30,7 +30,7 @@ import java.util.List;
 @Service
 public class CartServiceImpl implements CartService {
 
-    @Value("${REST_BASE_URL}")
+//    @Value("${REST_BASE_URL}")
     private String REST_BASE_URL;
     @Value("${ITME_INFO_URL}")
     private String ITME_INFO_URL;

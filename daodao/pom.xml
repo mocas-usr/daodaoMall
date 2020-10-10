@@ -120,9 +120,9 @@
                     <artifactId>
                         maven-surefire-plugin
                     </artifactId>
-                    <!-- <version>
+                     <version>
                          2.22.1
-                     </version>-->
+                     </version>
                 </plugin>
                 <plugin>
                     <artifactId>
